@@ -68,3 +68,6 @@ This repository contains the solutions to 6 JavaScript problems using basic conc
 * Determine PASS/FAIL based on score.
 
 *Time Complexity:* O(1)
+
+**Repo-Link:**
+https://github.com/vijjvaljain2025-byte/JS-Assignment
