@@ -8,9 +8,9 @@ function isPrime(n) {
     return true;
 }
 
-let L = parseInt(prompt("Enter L:"));
-let R = parseInt(prompt("Enter R:"));
-let K = parseInt(prompt("Enter K:"));
+let L = Number(prompt());
+let R = Number(prompt());
+let K = Number(prompt());
 
 let count = 0;
 
