@@ -2,7 +2,7 @@
 
 ## Fundamentals of Web Design – Assignment 4
 
-This repository contains solutions to 6 JavaScript problems using basic concepts such as loops, and functions. All inputs are taken using `prompt()` and outputs are displayed using `alert()` as per instructions.
+This repository contains the solutions to 6 JavaScript problems using basic concepts such as loops, and functions. All inputs are taken using `prompt()` and outputs are displayed using `alert()` as per instructions.
 
 
 ## Question 1: Digit Gatekeeper
