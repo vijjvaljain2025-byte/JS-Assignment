@@ -1,7 +1,7 @@
 // Q2: Roll-Seed Lock
 
-let N = parseInt(prompt("Enter N:"));
-let seed = parseInt(prompt("Enter seed:"));
+let N = Number(prompt());
+let seed = Number(prompt());
 
 let current = N;
 

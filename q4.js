@@ -1,9 +1,9 @@
 // Q4: Fare Calculator
 
-let base = parseInt(prompt("Enter base:"));
-let distance = parseInt(prompt("Enter distance:"));
-let minutesLate = parseInt(prompt("Enter minutesLate:"));
-let seed = parseInt(prompt("Enter seed:"));
+let base = Number(prompt());
+let distance = Number(prompt());
+let minutesLate = Number(prompt());
+let seed = Number(prompt());
 
 let fare = base + 7 * distance;
 
@@ -18,7 +18,6 @@ if (seed % 2 === 1)
 else
     fare += seed;
 
-// Round up to nearest multiple of 5
 fare = Math.ceil(fare / 5) * 5;
 
 alert(fare);

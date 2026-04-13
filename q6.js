@@ -1,8 +1,8 @@
 // Q6: Contest Score Judge
 
-let a = parseInt(prompt("Enter correct answers:"));
-let b = parseInt(prompt("Enter partially correct:"));
-let c = parseInt(prompt("Enter wrong answers:"));
+let a = Number(prompt());
+let b = Number(prompt());
+let c = Number(prompt());
 
 let score = 3 * a + b - 2 * c;
 

@@ -12,8 +12,8 @@ function isPalindrome(n) {
     return original === rev;
 }
 
-let N = parseInt(prompt("Enter N:"));
-let K = parseInt(prompt("Enter K:"));
+let N = Number(prompt());
+let K = Number(prompt());
 
 let answer = -1;
 

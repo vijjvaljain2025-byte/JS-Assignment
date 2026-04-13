@@ -1,7 +1,7 @@
 // Q5: Skipping Numbers
 
-let N = parseInt(prompt("Enter N:"));
-let seed = parseInt(prompt("Enter seed:"));
+let N = Number(prompt());
+let seed = Number(prompt());
 
 let m = 0;
 let sum = 0;
